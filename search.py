@@ -14,9 +14,9 @@ from nlbooking import (
 
 if __name__ == "__main__":
 
-    if "--voice" in sys.argv or "-V" in sys.argv:
+    if "--speech" in sys.argv or "-s" in sys.argv:
         search_string = transcribe()
-    elif "--example" in sys.argv or "-E" in sys.argv:
+    elif "--example" in sys.argv or "-e" in sys.argv:
         search_string = "hello i want to go to barcelona and i want my hotel to \
         have free wi-fi and a swimming pool and also i dont want to pay more the £100"
     else:

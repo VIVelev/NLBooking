@@ -3,11 +3,11 @@
 
 ### How it works?
 ```bash
-$ pipenv run python search.py [flags] [the spoken text]
+$ pipenv run python search.py [flags] [text]
 ```
 
 #### Optional Flags
-- `--voice` - activate voice search (`the spoken text` is not needed as an argument, speak directly)
+- `--speech` - activate speech search (`text` is not needed as an argument, speak directly)
 - `--example` - shows an example output
 - `--verbose` - shows verbose output
 
