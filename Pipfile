@@ -12,7 +12,6 @@ speechrecognition = "*"
 pyaudio = "*"
 
 [dev-packages]
-jupyter = "*"
 pylint = "*"
 
 [requires]
