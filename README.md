@@ -19,9 +19,9 @@ $ pipenv run python search.py hello i want to go to barcelona and i want my hote
 
 ### Setup for Mac OSX
 ```bash
-$ git clone https://github.com/VIVelev/NLBooking.git
-$ cd ./NLBooking
 $ brew install pipenv
 $ brew install portaudio
+$ git clone https://github.com/VIVelev/NLBooking.git
+$ cd ./NLBooking
 $ bash ./setup.sh
 ```
