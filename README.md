@@ -16,3 +16,12 @@ $ pipenv run python search.py [flags] [the spoken text]
 $ pipenv run python search.py hello i want to go to barcelona and i want my hotel to have free wi-fi and a swimming pool and also i dont want to pay more the £100
 {"dates": null, "locations": ["Barcelona"], "n_adults": null, "n_children": null, "price_limits": ["100"], "search_tags": ["free wi-fi", "swimming pool"]}
 ```
+
+### Setup for Mac OSX
+```bash
+$ git clone https://github.com/VIVelev/NLBooking.git
+$ cd ./NLBooking
+$ brew install pipenv
+$ brew install portaudio
+$ bash ./setup.sh
+```
